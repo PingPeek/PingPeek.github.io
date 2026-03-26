@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NetTweak - Privacy Policy</title>
+  <title>FlowLens - Privacy Policy</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -34,14 +34,14 @@
 <body>
 <div class="container">
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: March 15, 2026</p>
+    <p class="meta">Last updated: March 26, 2026</p>
 
     <div class="highlight">
-      Core commitment: All network traffic data processed by NetTweak is handled locally on your device and is never uploaded to any external server.
+      Core commitment: All network traffic data processed by FlowLens is handled locally on your device and is never uploaded to any external server.
     </div>
 
     <h2>1. Information We Collect</h2>
-    <p>NetTweak does not collect any personally identifiable information. Data stored locally on your device includes:</p>
+    <p>FlowLens does not collect any personally identifiable information. Data stored locally on your device includes:</p>
     <ul>
       <li>Network traffic statistics (upload/download bytes, real-time speed)</li>
       <li>Network simulation parameters configured by the user (bandwidth limit, latency, packet loss rate, etc.)</li>
@@ -57,22 +57,36 @@
     </ul>
 
     <h2>3. VPN Permission</h2>
-    <p>NetTweak uses the Android VPN Service API to create a local virtual network interface (tun interface) for intercepting, analyzing, and simulating network conditions entirely within your device.</p>
+    <p>FlowLens uses the Android VPN Service API to create a local virtual network interface (tun interface) for intercepting, analyzing, and simulating network conditions entirely within your device.</p>
     <p>This mechanism runs entirely locally and <strong>does not forward any traffic to external proxies or servers</strong>. The VPN permission is used solely to enable network simulation and traffic statistics features, and does not require root access.</p>
 
     <h2>4. Data Storage &amp; Security</h2>
     <p>All data is stored in your device's private app directory (protected by the Android sandbox) and is inaccessible to other apps. Data never leaves your device through any channel.</p>
+    <p>Local data is retained permanently on your device until you clear the app data or uninstall the app.</p>
 
     <h2>5. Third-Party Services</h2>
-    <p>NetTweak integrates Firebase, which is used solely to collect app crash reports and performance data. This integration does not collect any user data or personally identifiable information.</p>
+    <p>FlowLens integrates Firebase Crashlytics and Firebase Performance Monitoring to help us improve app stability. These services may collect the following technical information:</p>
+    <ul>
+      <li>Crash logs and stack traces</li>
+      <li>Device model, operating system version, and app version</li>
+      <li>Crashlytics installation UUID (a random identifier, not tied to your identity)</li>
+      <li>General app performance metrics (e.g., app startup time)</li>
+    </ul>
+    <p>This data is sent to Google's servers and is governed by <a href="https://policies.google.com/privacy" style="color: #60a5fa;">Google's Privacy Policy</a>. No personally identifiable information (such as name, email, or location) is collected or transmitted through these services.</p>
 
-    <h2>6. Children's Privacy</h2>
+    <h2>6. Data Deletion</h2>
+    <p>All locally stored data can be deleted by clearing the app data in your device settings or by uninstalling FlowLens. No account or server-side data exists that requires a separate deletion request.</p>
+
+    <h2>7. Children's Privacy</h2>
     <p>This app is intended for developers and technical users. It is not directed at children under the age of 13, and we do not knowingly collect information from children.</p>
 
-    <h2>7. Policy Changes</h2>
+    <h2>8. Policy Changes</h2>
     <p>If this policy undergoes significant changes, we will notify users through app update release notes and update the date at the top of this page.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:jama33136@gmail.com" style="color: #60a5fa;">jama33136@gmail.com</a>.</p>
   </div>
 
-  <footer>© 2026 NetTweak. All rights reserved.</footer>
+  <footer>© 2026 FlowLens. All rights reserved.</footer>
 </body>
 </html>
